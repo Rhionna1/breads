@@ -13,7 +13,6 @@ breads.get('/', (req, res) => {
 })
 
 // SHOW
-// SHOW
 breads.get('/:arrayIndex', (req, res) => {
   res.render('Show', {
     bread: Bread[req.params.arrayIndex]
